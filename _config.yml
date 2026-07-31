@@ -16,7 +16,7 @@ timezone: Asia/Singapore
 
 title: 3ggspl01t's blog
 
-tagline: My cybersecurity journey # it will display as the subtitle
+tagline: Random cybersecurity sharing # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
