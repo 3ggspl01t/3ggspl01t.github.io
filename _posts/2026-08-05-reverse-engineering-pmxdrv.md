@@ -1,5 +1,5 @@
 ---
-title: "From Intel-SA-00086 Detection Tool to Kernel Access: Reverse Engineering pmxdrv.sys"
+title: "From Intel-SA-00086 Detection Tool to Physical Memory: Reverse Engineering pmxdrv.sys"
 description: "Investigating whether a 2010 Intel PMx driver exposes dangerous kernel primitives"
 date: 2026-08-05 18:40:00 +0800
 categories: [Research, Windows]
