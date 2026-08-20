@@ -3,7 +3,7 @@ title: "What Does pmxdrv.sys Expect? Reconstructing the IOCTL Input Structure"
 description: "Tracing IOCTL 0x00222AB8 to uncover the undocumented request format"
 date: 2026-08-12 16:15:00 +0800
 categories: [Research, Windows]
-tags: [reverse-engineering, drivers]
+tags: [reverse-engineering, drivers, pmxdrv.sys]
 ---
 
 ## Context
