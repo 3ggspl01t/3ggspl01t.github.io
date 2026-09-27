@@ -105,16 +105,15 @@ Is it a memory resource?
      │      Validate the range
      │            │
      │            ▼
-     │      Add accepted range
+     │      Add accepted range to list
      │            │
      └────────────┘
           │
           ▼
-Sort ranges by physical address
+Sort list of ranges by physical address
           │
           ▼
-Return Windows-described
-physical memory ranges
+Return Windows-described physical memory ranges
 ```
 
 ```cpp
