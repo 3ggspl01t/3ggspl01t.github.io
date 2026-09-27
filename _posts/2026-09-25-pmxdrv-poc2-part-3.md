@@ -77,6 +77,46 @@ Each `CM_PARTIAL_RESOURCE_DESCRIPTOR` occupies 0x14 bytes in this layout, so onc
 
 Translating the above concepts into a piece of code, we attempt to find windows-described physical memory.
 
+```text
+LoadPhysicalMemoryRanges()
+          │
+          ▼
+Open Windows Physical Memory ResourceMap
+          │
+          ▼
+Read the .Translated resource list
+          │
+          ▼
+Walk each resource descriptor
+          │
+          ▼
+Is it a memory resource?
+     │            │
+    No           Yes
+     │            │
+     │            ▼
+     │      Read start + length
+     │            │
+     │            ▼
+     │      Decode large-memory
+     │      length if needed
+     │            │
+     │            ▼
+     │      Validate the range
+     │            │
+     │            ▼
+     │      Add accepted range
+     │            │
+     └────────────┘
+          │
+          ▼
+Sort ranges by physical address
+          │
+          ▼
+Return Windows-described
+physical memory ranges
+```
+
 ```cpp
 #include <windows.h>
 #include <stdio.h>
