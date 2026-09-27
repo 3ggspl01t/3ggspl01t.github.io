@@ -309,7 +309,7 @@ int main(void)
 
 On my Windows 10 build 19045 laptop with 32GB RAM, parsing the resource list produced four ranges.
 
-![alt](/assets/img/posts/pmxdrv-poc2-part-3/paart-3-demo.png)
+![alt](/assets/img/posts/pmxdrv-poc2-part-3/part-3-demo.png)
 _Windows-described physical memory ranges in Windows 10 build 19045 with 32GB RAM_
 
 ## What's Next?
