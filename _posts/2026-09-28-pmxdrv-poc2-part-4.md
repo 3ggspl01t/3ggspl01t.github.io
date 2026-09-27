@@ -1,7 +1,7 @@
 ---
 title: "Exploiting pmxdrv.sys (Part 4): Implementing the EPROCESS Scanner"
 description: "Scanning physical memory, validating EPROCESS candidates, and inspecting the process objects collected"
-date: 2026-09-28 00:00:00 +0800
+date: 2026-09-28 00:10:00 +0800
 categories: [Research, Windows]
 tags: [drivers, pmxdrv.sys]
 ---
