@@ -1054,7 +1054,7 @@ int main(void)
 
 With the concepts implemented in code, let's see how the PoC fares in finding `EPROCESS` candidates on my target Windows 10 build 19045 system with 32GB RAM.
 
-![alt](/assets/img/posts/pmxdrv-poc2-part-3/part-4-demo.png)
+![alt](/assets/img/posts/pmxdrv-poc2-part-4/part-4-demo.png)
 _Finding `EPROCESS` candidates in Windows 10 build 19045 with 32GB RAM_
 
 From the output, we can see the following:
@@ -1069,10 +1069,10 @@ From the output, we can see the following:
 
 Most importantly, we can see our PoC and `SYSTEM` among the validated `EPROCESS` candidates
 
-![alt](/assets/img/posts/pmxdrv-poc2-part-3/poc_eprocess_content.png)
+![alt](/assets/img/posts/pmxdrv-poc2-part-4/poc_eprocess_content.png)
 _Content of our PoC's `EPROCESS` among the output_
 
-![alt](/assets/img/posts/pmxdrv-poc2-part-3/system_eprocess_content.png)
+![alt](/assets/img/posts/pmxdrv-poc2-part-4/system_eprocess_content.png)
 _Content of `SYSTEM`'s `EPROCESS` among the output_
 
 > **Note**: `ImageFileName` is fixed-length, so longer process names may be truncated in the output (for example, `part-4-demo.exe` appears as `part-4-demo.ex` in the screenshot above).
