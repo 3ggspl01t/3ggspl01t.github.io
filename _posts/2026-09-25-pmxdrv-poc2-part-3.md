@@ -297,7 +297,7 @@ static BOOL LoadPhysicalMemoryRanges(std::vector<PHYSICAL_RANGE>* ranges)
     return TRUE;
 }
 
-int main(int argc, char** argv)
+int main(void)
 {
     std::vector<PHYSICAL_RANGE> ranges;
     if (!LoadPhysicalMemoryRanges(&ranges)) {
