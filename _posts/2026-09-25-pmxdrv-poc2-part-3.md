@@ -8,7 +8,7 @@ tags: [drivers, pmxdrv.sys, physical memory]
 
 ## Context
 
-In [Part 2](https://3ggspl01t.github.io/posts/pmxdrv-poc2-part-2/), we got clarity over our `EPROCESS` search pipeline and were ready to move on to identifying SYSTEM process and our PoC process. But wait, we haven't touch on the part before the `EPROCESS` search pipeline. How do we know which physical addresses to scan for `Proc` allocations in the first place?
+In [Part 2](/posts/pmxdrv-poc2-part-2/), we got clarity over our `EPROCESS` search pipeline and were ready to move on to identifying SYSTEM process and our PoC process. But wait, we haven't touch on the part before the `EPROCESS` search pipeline. How do we know which physical addresses to scan for `Proc` allocations in the first place?
 
 ## Windows Hardware Resource Map
 

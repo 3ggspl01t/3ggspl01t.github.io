@@ -8,7 +8,7 @@ tags: [drivers, pmxdrv.sys]
 
 ## Context
 
-In [Part 1](https://3ggspl01t.github.io/posts/pmxdrv-poc2-part-1/), we got some clarity on the pieces needed to turn the physical-memory read/write primitive exposed by `pmxdrv.sys` into something tangible. Next, we find ways to reliably locate `EPROCESS` structures from physical memory.
+In [Part 1](/posts/pmxdrv-poc2-part-1/), we got some clarity on the pieces needed to turn the physical-memory read/write primitive exposed by `pmxdrv.sys` into something tangible. Next, we find ways to reliably locate `EPROCESS` structures from physical memory.
 
 ## Inspiration from Existing PoC
 

@@ -8,7 +8,7 @@ tags: [reverse-engineering, drivers, pmxdrv.sys]
 
 ## Context
 
-In the [previous post](https://3ggspl01t.github.io/posts/reverse-engineering-pmxdrv/), we identified 3 IOCTLs in `pmxdrv.sys` that eventually lead to a physical-memory mapping API, `ZwMapViewOfSection`.
+In the [previous post](/posts/reverse-engineering-pmxdrv/), we identified 3 IOCTLs in `pmxdrv.sys` that eventually lead to a physical-memory mapping API, `ZwMapViewOfSection`.
 
 The next natural step is to develop a Proof of Concept (PoC) to demonstrate how the driver can be used for privilege escalation. But in order to do that, we first need to understand what data the driver expects from the caller.
 

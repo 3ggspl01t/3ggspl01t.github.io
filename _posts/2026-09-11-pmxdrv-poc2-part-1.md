@@ -8,7 +8,7 @@ tags: [drivers, pmxdrv.sys]
 
 ## Context
 
-In the [previous post](https://3ggspl01t.github.io/posts/pmxdrv-poc1/), we saw that an unprivileged user could use the PMx driver to map arbitrary physical memory.
+In the [previous post](/posts/pmxdrv-poc1/), we saw that an unprivileged user could use the PMx driver to map arbitrary physical memory.
 
 That established the primitive. However, a primitive by itself does not always make the security impact obvious. Saying "This driver lets a process map arbitrary physical memory." is very different from showing:
 
